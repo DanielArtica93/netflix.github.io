@@ -1,0 +1,179 @@
+#fondo-pag-uno {
+    /* Estilo para el fondo de la primera página (imagen de fondo) */
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* fondo transparente */
+#fondo-t{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+#espaciado-nav-inicial{
+    padding-left: 150px;
+}
+
+#navbar-netflix{
+    width: 200px;
+    height: 50px;
+    /* padding-left: 150px; */
+    /* margin-left: 60px; */
+    margin-bottom: 0px;
+}
+
+#desp-boton{
+    margin-right: 160px;
+}
+
+#btn-login{
+    padding: auto;
+}
+
+#logo{
+    width: 32px;
+    height: 32px;
+}
+
+#fondo{
+    position: absolute;
+    width: 100%;
+    height: 130%;
+}
+
+#espaciado-nav-medio{
+    margin-left: 500px;
+}
+
+#desplegar{
+    background-color: #0F0F0F;
+    color: rgb(255, 255, 255);
+    border-color: rgb(208, 207, 207);
+    width: auto;
+    /* margin-left: 630px; */
+    /* margin-right: 15px; */
+}
+
+#desplegar:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-color: white;
+    width: auto;
+}
+
+#iniciar-sesion{
+    height: 37px
+}
+
+#espaciado-nav-final{
+    padding-right: 170px;
+}
+
+#texto-1{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#texto-2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+#texto-6{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.dark-background {
+    background-color: black; 
+    color: white; 
+    margin-right: 10px;
+    width: 100%;
+    padding-right: 400px;
+    padding-left: 10px;
+    
+}
+
+#email-pp{
+    background-color: transparent;
+}
+
+#label-email{
+    margin-left: 20px;
+}
+
+#btn-comenzar{
+    font-weight: bold;
+    font-size: 25px;
+    height: 58px;
+}
+
+#h1-pfc{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#cduno{
+    background-color: #2D2D2D;
+    color: white;
+}
+
+#cduno:hover{
+    background-color: #414141;
+    color: white;
+}
+
+#a-color{
+    color: rgb(175, 171, 171);
+}
+
+#tam-desp{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+#desplegar-seis{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#desp-boton{
+    background-color: #0F0F0F;
+    border-color: white;
+    color: white;
+}
+
+#desp-boton:hover{
+    background-color: #0F0F0F;
+    color: white;
+}
+
+#desp-label{
+    margin-left: 20px;
+}
+
+#desplegar-final{
+    background-color: #0F0F0F;
+    color: rgb(255, 255, 255);
+    border-color: rgb(208, 207, 207);
+    width: auto;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+#desplegar-final:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-color: white;
+    width: auto;
+}
