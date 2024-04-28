@@ -3,446 +3,301 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="assets/styles.css">
-
-    <link class="logo" rel="icon" href="./img/logo.png">
-    
+    <link rel="icon" href="img/favicon.png" type="image/png">
     <title>Netflix Honduras: Ve series online, ve películas online</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
- 
+    <link href="output.css" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- Primer div -->
-  <div id="fondo-pagina-uno">
-    <div id="fondo-transparente-primer-div">
 
-      <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
+  <div class="bg-center bg-no-repeat" style="background-image: url('img/fondo.jpg');" loading="lazy">
 
-          <nav class="navbar">
+    <div style="background-color: rgba(0, 0, 0, 0.5);">
 
-            <div></div>
-
-            <div>
-              <img id="estilo-navbar-netflix" src="img/navbar-netflix.png">
-            </div>
-
-                <div>
-
-                  <select class="form-select desplegar-idiomas" aria-label="Default select example">
-                      <option value="1">Español</option>
-                      <option value="2">English</option>
-                  </select>
-                </div>
-    
-                <div>
-                  <button type="button" class="btn btn-danger">Iniciar Sesión</button>
-                </div>
-                
-                <div></div>
-
-          </nav>
-
-          <h1 class="texto-h1-div-uno pt-5">Películas y series</h1>
-          <h1 class="texto-h1-div-uno">ilimitadas y mucho</h1>
-          <h1 class="texto-h1-div-uno pb-1">más</h1>
-          <h4 class="pb-1" id="texto-h2-div-uno">Disfruta donde quieras. Cancela cuando quieras.</h4>
-          <h6 class="pb-1" id="texto-h6-div-uno">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h6>
-
-          <div  class="container-fluid">
-            <div class="row justify-content-center">
-              
-              <div class="form-floating col-lg-4">
-                <input id="boton-email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email</label>
-              </div>
-
-
-                <button type="button" class="btn btn-danger col-5 col-sm-3"><h5>Comenzar ></h5></button>
-              
-              <div>
-
-              </div>
-
-            </div>
-          </div>
-        
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Fin primer div -->
-
-    <!-- Segundo div -->
-        
-    <div class="container-fluid separacion-borde-final-div" style="background-color: black; color: white;">
-
-      <div class="row justify-content-center align-items-center">
-        
-          <div id="carouselExampleIndicators-1" class="carousel slide col-md-6" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-innerks">
-              <div class="carousel-item active">
-                <img src="img/tv-1.png" class="d-block w-50 pt-5 pb-5" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/tv-2.gif" class="d-block w-50 pt-5 pb-5" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/tv-3.gif" class="d-block w-50 pt-5 pb-5" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-  
-          <div class="col-md-4">
-            <h1 class="animacion-parpadear">Disfruta en tu TV</h1>
-            <h4>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</h4>
-          </div>
-    
-        </div>
-    </div>
-
-    <!-- Fin segundo div -->
-    
-     <!-- Tercer div -->
-     <div class="container-fluid separacion-borde-final-div" style="background-color: black; color: white;">
-
-      <div class="row justify-content-center align-items-center">
-  
-          <div id="carouselExampleIndicators-2" class="carousel slide col-md-6" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-innerks">
-              <div class="carousel-item active">
-                <img src="img/download-1.gif" class="d-block w-50 pt-5 pb-5" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/download-2.gif" class="d-block w-50 pt-5 pb-5" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/download-3.gif" class="d-block w-50 pt-5 pb-5" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <div class="col-md-4">
-              <h1 class="animacion-parpadear">Descarga tus series para verlas offline</h1>
-              <h4>Guarda tu contenido favorito y tendrás siempre algo para ver.</h4>
-          </div>
-  
-      </div>
-    </div>
-
-    <!-- Fin tercer div -->
-
-    <!-- Cuarto div -->
-    <div class="container-fluid separacion-borde-final-div" style="background-color: black; color: white;">
-
-      <div class="row justify-content-center align-items-center">
-
-          <div id="carouselExampleIndicators-3" class="carousel slide col-md-6" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-innerks">
-              <div class="carousel-item active">
-                <img src="img/device-pile.png" class="d-block w-50 pt-5 pb-5" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/tablet-1.gif" class="d-block w-50 pt-5 pb-5" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/laptop.gif" class="d-block w-50 pt-5 pb-5" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-3" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-3" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-  
-          <div class="col-md-4">
-            <h1 class="animacion-parpadear">Disfruta dónde quieras</h1>
-            <h4>Películas y series ilimitadas en tu teléfono, tablet, laptop y TV.</h4>
-          </div>
-  
-      </div>
-    </div>
-
-     <!-- Fin cuarto div -->
-      
-      <!-- Quinto div -->
-      <div class="container-fluid separacion-borde-final-div" style="background-color: black; color: white;">
-
-        <div class="row justify-content-center align-items-center">
-
-            <div id="carouselExampleIndicators-4" class="carousel slide col-md-6" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators-4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators-4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators-4" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-innerks">
-                <div class="carousel-item active">
-                  <img src="img/toy-story.png" class="d-block w-50 pt-5 pb-5" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/kun-fu-panda.png" class="d-block w-50 pt-5 pb-5" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/madagascar.png" class="d-block w-50 pt-5 pb-5" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-4" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-4" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-    
-            <div class="col-md-4">
-                <h1 class="animacion-parpadear">Crea perfiles para niños</h1>
-                <h4>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</h4>
-            </div>
-    
-        </div>
-      </div>
-
-      <!-- Fin quinto div -->
-
-      <!-- Sexto div -->
-
-      <div class="container-fluid separacion-borde-final-div" style="background-color: black; color: white;">
-        
-        <h1 id="h1-preguntas-frecuentes" class="animacion-parpadear">Preguntas frecuentes</h1>
-    
-    <div class="accordion accordion-flush tamanio-desplegable" id="accordionFlushExample">
-      
-      <div class="accordion-item pb-2" style="background-color: #000000;">
-        <h4 class="accordion-header" id="flush-headingOne">
-          <button id="contenedores-desplegables" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            <h4>¿Qué es Netflix?</h4>
-          </button>
-        </h4>
-        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-          <div id="contenedores-desplegables" class="accordion-body">
-            <h4>Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales premiados en casi cualquier pantalla conectada a internet.</h4>
-          <h4>Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-      <div class="accordion accordion-flush tamanio-desplegable" id="accordionFlushExample">
-      
-        <div class="accordion-item pb-2" style="background-color: #000000;">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button id="contenedores-desplegables" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              <h4>¿Cuánto cuesta Netflix?</h4>
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-            <div id="contenedores-desplegables" class="accordion-body">
-                <h4>
-                  Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, todo por una tarifa plana mensual. Planes desde USD 4.99 hasta USD 10.99 al mes. Sin costos adicionales ni contratos.
-                </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      
-      <div class="accordion accordion-flush tamanio-desplegable" id="accordionFlushExample">
-      
-        <div class="accordion-item pb-2" style="background-color: #000000;">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button id="contenedores-desplegables" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              <h4>¿Dónde puedo ver Netflix?</h4>
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div id="contenedores-desplegables" class="accordion-body">
-                <h4>
-                  Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Netflix para ver contenido al instante a través de netflix.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que cuente con la app de Netflix, como smart TV, smartphones, tablets, reproductores multimedia y consolas de juegos.
-                </h4>
-                <h4>
-                  Además, puedes descargar tus series favoritas con iOS, Android o la app para Windows 10. Con la función de descarga, puedes ver donde vayas y sin conexión a internet. Lleva Netflix contigo adonde sea.
-                </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      <div class="accordion accordion-flush tamanio-desplegable" id="accordionFlushExample">
-      
-        <div class="accordion-item pb-2" style="background-color: #000000;">
-          <h2 class="accordion-header" id="flush-headingFour">
-            <button id="contenedores-desplegables" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-              <h4>¿Cómo cancelo?</h4>
-            </button>
-          </h2>
-          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-            <div id="contenedores-desplegables" class="accordion-body">
-                <h4>
-                  Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.
-                </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div class="accordion accordion-flush tamanio-desplegable" id="accordionFlushExample">
-      
-        <div class="accordion-item pb-2" style="background-color: #000000;">
-          <h2 class="accordion-header" id="flush-headingFive">
-            <button id="contenedores-desplegables" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-              <h4>¿Qué puedo ver en Netflix?</h4>
-            </button>
-          </h2>
-          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-            <div id="contenedores-desplegables" class="accordion-body">
-                <h4>
-                  Netflix tiene un amplio catálogo de películas, series, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras.
-                </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
-
-
-      <div class="accordion accordion-flush tamanio-desplegable" id="accordionFlushExample">
-
-        <div class="accordion-item pb-2" style="background-color: #000000;">
-          <h2 class="accordion-header" id="flush-headingSix">
-            <button id="contenedores-desplegables" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-              <h4>¿Es bueno Netflix para los niños?</h4>
-            </button>
-          </h2>
-          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-            <div id="contenedores-desplegables" class="accordion-body">
-                <h4>
-                  La experiencia de Netflix para niños está incluida en la membresía para que los padres tengan el control mientras los peques disfrutan series y películas familiares en su propio espacio.
-                </h4>
-                <h4>
-                  Los perfiles para niños incluyen controles parentales protegidos por PIN que te permiten restringir el contenido que pueden ver los niños en función de la clasificación por edad y bloquear determinados títulos que no quieras que los niños vean.
-                </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <h5 id="texto-final-div-seis-preguntas-frecuentes">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h5>
-      
-      <div  class="container-fluid pb-5">
-        <div class="row justify-content-center">
+      <nav class="flex items-center justify-between flex-wrap p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
           
-          <div class="form-floating col-4">
-            <input id="boton-email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label id="label-email" for="floatingInput">Email</label>
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-red-700"></span>
+          </span>
+          
+          <img class="h-8 mx-auto sm:w-1/2 lg:w-1/2 xl:w-28 inline-block" src="img/navbar-netflix.png" alt="Netflix Logo">
+          
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-red-700"></span>
+          </span>
+  
+        </div>
+      
+        <div class="block lg:hidden">
+          <button id='boton' class="flex items-center px-3 py-2 border rounded text-white border-white">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+        </div>
+        <div id='menu' class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
           </div>
+          <div>
+  
+            <select class="mr-4 inline-block text-sm px-4 py-1 bg-black text-white border border-red-500 rounded-full hover:border-transparent hover:text-black hover:bg-white mt-4 lg:mt-0" aria-label="Default select example">
+              <option value="1">Español</option>
+              <option value="2">English</option>
+            </select>
+  
+            <a href="" class="inline-block text-sm px-4 py-2 leading-none border border-red-500 rounded-full hover:border-transparent bg-black text-white hover:text-black hover:bg-white mt-4 lg:mt-0">Iniciar sesión</a>
+          
+          </div>
+        </div>
+      </nav>    
+  
+      <h1 class="text-center text-white font-extrabold text-sm md:text-5xl pt-5 mx-auto">Películas y series</h1>
+      <h1 class="text-center text-white font-extrabold text-sm md:text-5xl pb-1 mx-auto">ilimitadas y mucho</h1>
+      <h1 class="text-center text-white font-extrabold text-sm md:text-5xl pb-1 mx-auto">más</h1>
+      <h4 class="text-center text-white font-medium text-sm pb-1 mx-auto">Disfruta donde quieras. Cancela cuando quieras.</h4>
+      <h6 class="text-center text-white font-medium text-sm pb-1 mx-auto">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h6>
+  
+      <div class="text-center pb-14">
+        <input type="email" class="w-full mx-auto sm:w-1/4 lg:w-1/2 xl:w-1/3 px-4 py-2 border border-red-500 rounded-full" placeholder="Email">
+        <button type="button" class="w-full mx-auto sm:w-1/4 lg:w-1/2 xl:w-1/3 bg-red-500 text-white font-bold rounded-full px-4 py-2 mt-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-red-700 duration-300">Comenzar</button>
+      </div>
 
-          <button type="button" class="btn btn-danger col-2"><h5>Comenzar ></h5></button>
+    </div>
+  
+  </div>
+  
+  <!-- Fin primer div -->
 
+  <!-- Inicia segundo div -->
+
+  <div class="flex flex-wrap bg-black text-white mt-1 py-7">
+    <div class="w-52 h-52 flex overflow-x-scroll m-auto">
+      <img src="img/tv-1.png" alt="Imagen 1">
+      <img src="img/tv-2.png" alt="Imagen 2">
+      <img src="img/tv-3.png" alt="Imagen 3">
+    </div>
+    <div class="w-full md:w-1/2 text-center m-auto">
+        <h1 class="text-lg">Disfruta en tu TV</h1>
+        <h4 class="text-sm">Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</h4>
+    </div>
+  </div>
+
+  <!-- Termina segundo div -->
+
+  <!-- Inicia tercer div -->
+
+  <div class="flex flex-wrap bg-black text-white mt-1">
+    <div class="w-full md:w-1/2 text-center m-auto">
+      <h1 class="text-lg">Descarga tus series para verlas offline</h1>
+      <h4 class="text-sm">Guarda tu contenido favorito y tendrás siempre algo para ver.</h4>
+    </div>
+    <div class="w-full md:w-1/2">
+      <img class="w-52 h-52 mx-auto text-center" src="img/download-1.png" alt="">
+    </div>
+  </div>
+
+  <!-- Termina tercer div -->
+
+   <!-- Inicia cuarto div -->
+
+  <div class="flex flex-wrap bg-black text-white mt-1 py-7">
+    <div class="w-52 h-52 flex overflow-x-scroll m-auto">
+      <img src="img/tablet.png" alt="Imagen 1">
+      <img src="img/laptop.png" alt="Imagen 2">
+      <img src="img/device-pile.png" alt="Imagen 3">
+    </div>
+    <div class="w-full md:w-1/2 text-center m-auto">
+        <h1 class="text-lg">Disfruta dónde quieras</h1>
+        <h4 class="text-sm">Películas y series ilimitadas en tu teléfono, tablet, laptop y TV.</h4>
+    </div>
+  </div>
+
+  <!-- Termina cuarto div -->
+
+  <!-- Inicia quinto div -->
+
+  <div class="flex flex-wrap bg-black text-white mt-1 py-7">
+    <div class="w-full md:w-1/2 text-center m-auto">
+      <h1 class="text-lg">Crea perfiles para niños</h1>
+      <h4 class="text-sm">Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</h4>
+    </div>
+    <div class="w-52 h-52 flex overflow-x-scroll m-auto">
+      <img src="img/toy-story.png" alt="Imagen 1">
+      <img src="img/kun-fu-panda.png" alt="Imagen 2">
+      <img src="img/madagascar.png" alt="Imagen 3">
+    </div>
+  </div>
+
+  <!-- Termina quinto div -->
+
+  <!-- Inicia sexto div -->
+
+  <div class="bg-black text-white mt-1">
+
+    <h1 class="pt-14 pb-7 text-sm font-bold text-center">Preguntas frecuentes</h1>
+
+
+    <div>
+
+      <div class="mx-14 font-bold border border-gray-300 rounded-md">
+        <!-- Primer elemento del acordeón -->
+        <div class="border-b border-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-red-700 duration-300">
+          <button class="flex justify-between w-full px-4 py-2 text-left bg-neutral-500 hover:bg-neutral-700">
+              <span>¿Qué es Netflix?</span>
+              <svg class="w-4 h-4 transform transition-transform" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7 10l5 5 5-5z"></path>
+              </svg>
+          </button>
+          <div class="p-4 hidden">
+            Netflix es un servicio de streaming que ofrece una gran variedad de películas, 
+            series y documentales premiados en casi cualquier pantalla conectada a internet. 
+            Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. 
+            Siempre hay algo nuevo por descubrir, ¡y todas las semanas se agregan más 
+            películas y series!
+          </div>
+        </div>
+        <!-- Segundo elemento del acordeón -->
+        <div class="border-b border-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-red-700 duration-300">
+          <button class="flex justify-between w-full px-4 py-2 text-left bg-neutral-500 hover:bg-neutral-700">
+              <span>¿Cuánto cuesta Netflix?</span>
+              <svg class="w-4 h-4 transform transition-transform" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7 10l5 5 5-5z"></path>
+              </svg>
+          </button>
+          <div class="p-4 hidden">
+            Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, 
+            todo por una tarifa plana mensual. Planes desde USD 4.99 hasta USD 10.99 al mes. 
+            Sin costos adicionales ni contratos.
+          </div>
+        </div>
+        <!-- tercer elemento del acordeón -->
+        <div class="border-b border-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-red-700 duration-300">
+          <button class="flex justify-between w-full px-4 py-2 text-left bg-neutral-500 hover:bg-neutral-700">
+              <span>¿Dónde puedo ver Netflix?</span>
+              <svg class="w-4 h-4 transform transition-transform" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7 10l5 5 5-5z"></path>
+              </svg>
+          </button>
+          <div class="p-4 hidden">
+            Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Netflix para ver contenido 
+            al instante a través de netflix.com desde tu computadora personal o en cualquier dispositivo 
+            con conexión a internet que cuente con la app de Netflix, como smart TV, smartphones, tablets, 
+            reproductores multimedia y consolas de juegos. Además, puedes descargar tus series favoritas 
+            con iOS, Android o la app para Windows 10. Con la función de descarga, puedes ver donde vayas 
+            y sin conexión a internet. Lleva Netflix contigo adonde sea.
+          </div>
+      </div>
+      <!-- cuarto elemento del acordeón -->
+      <div class="border-b border-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-red-700 duration-300">
+        <button class="flex justify-between w-full px-4 py-2 text-left bg-neutral-500 hover:bg-neutral-700">
+            <span>¿Cómo cancelo?</span>
+            <svg class="w-4 h-4 transform transition-transform" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M7 10l5 5 5-5z"></path>
+            </svg>
+        </button>
+        <div class="p-4 hidden">
+          Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online 
+          con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.
         </div>
       </div>
+      <!-- quinto elemento del acordeón -->
+      <div class="border-b border-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-red-700 duration-300">
+        <button class="flex justify-between w-full px-4 py-2 text-left bg-neutral-500 hover:bg-neutral-700">
+            <span>¿Qué puedo ver en Netflix?</span>
+            <svg class="w-4 h-4 transform transition-transform" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M7 10l5 5 5-5z"></path>
+            </svg>
+        </button>
+        <div class="p-4 hidden">
+          Netflix tiene un amplio catálogo de películas, series, documentales, animes, 
+          originales premiados y más. Todo lo que quieras ver, cuando quieras.
+        </div>
+      </div>
+      <!-- sexto elemento del acordeón -->
+      <div class="border-b border-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-red-700 duration-300">
+        <button class="flex justify-between w-full px-4 py-2 text-left bg-neutral-500 hover:bg-neutral-700">
+            <span>¿Es bueno Netflix para los niños?</span>
+            <svg class="w-4 h-4 transform transition-transform" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M7 10l5 5 5-5z"></path>
+            </svg>
+        </button>
+        <div class="p-4 hidden">
+          La experiencia de Netflix para niños está incluida en la membresía para que 
+          los padres tengan el control mientras los peques disfrutan series y películas 
+          familiares en su propio espacio. Los perfiles para niños incluyen controles 
+          parentales protegidos por PIN que te permiten restringir el contenido que 
+          pueden ver los niños en función de la clasificación por edad y bloquear 
+          determinados títulos que no quieras que los niños vean.
+        </div>
+      </div>
+    
+    </div>
 
   </div>
-  <!-- Fin sexto div -->
 
-  <!-- Inicia septimo div -->
-
-  <div class="container-fluid separacion-borde-final-div" style="background-color: black; color: #B3B3B3; text-align: justify;">
-
-    <div class="row mx-auto">
-      <h6 class="pt-5">¿Preguntas? Llama al <a id="a-color" href="tel: 1 (408) 514-5239  (USA)">1 (408) 514-5239 (USA) </a></h6>
-    </div>
-
-    <div class="row mx-auto">
-      <a id="a-color" href="https://help.netflix.com/support/412" class="col-6 col-sm-6 pb-2 col-lg-3">Preguntas frecuentes</a>
-      <a id="a-color" href="https://help.netflix.com/" class="col-6 col-sm-6 pb-2 col-lg-3">Centro de ayuda</a>
-      <a id="a-color" href="https://www.netflix.com/youraccount" class="col-6 col-sm-6 pb-2 col-lg-3">Cuenta</a>
-      <a id="a-color" href="https://media.netflix.com/" class="col-6 col-sm-6 pb-2 col-lg-3">Prensa</a>
-      <a id="a-color" href="http://ir.netflix.com/" class="col-6 col-sm-6 pb-2 col-lg-3">Relaciones con inversionistas</a>
-      <a id="a-color" href="https://jobs.netflix.com/jobs" class="col-6 col-sm-6 pb-2 col-lg-3">Empleo</a>
-      <a id="a-color" href="https://www.netflix.com/watch" class="col-6 col-sm-6 pb-2 col-lg-3">Formas de ver</a>
-      <a id="a-color" href="https://help.netflix.com/legal/termsofuse" class="col-6 col-sm-6 pb-2 col-lg-3">Términos de uso</a>
-      <a id="a-color" href="https://help.netflix.com/legal/privacy" class="col-6 col-sm-6 pb-2 col-lg-3">Privacidad</a>
-      <a id="a-color" href="https://www.netflix.com/hn/#" class="col-6 col-sm-6 pb-2 col-lg-3">Preferencias de cookies</a>
-      <a id="a-color" href="https://help.netflix.com/legal/corpinfo" class="col-6 col-sm-6 pb-2 col-lg-3">Información coorporativa</a>
-      <a id="a-color" href="https://help.netflix.com/contactus" class="col-6 col-sm-6 pb-2 col-lg-3">Contáctanos</a>
-      <a id="a-color" href="https://fast.com/" class="col-6 col-sm-6 pb-2 col-lg-3">Prueba de velocidad</a>
-      <a id="a-color" href="https://help.netflix.com/legal/notices" class="col-6 col-sm-6 pb-2 col-lg-3">Avisos legales</a>
-      <a id="a-color" href="https://www.netflix.com/hn/browse/genre/839338" class="col-6 col-sm-4 pb-2 col-lg-3">Sólo en Netflix</a>
-    </div>
-
-    <div id="separar-idioma-div-final" class="col-2 col-sm-3 col-lg-2 col-xl-2 col-xxl-2">
-
-      <select class="form-select desplegar-idiomas" aria-label="Default select example">
-          <option value="1">Español</option>
-          <option value="2">English</option>
-      </select>
-
-    </div>
-
-    <div class="row mx-auto">
-      <h8 class="col-4 col-sm-4 pb-5 col-lg-3">Netflix Honduras</h8>
-    </div>
+  <div class="pb-14"></div>
 
 </div>
 
-<!-- Fin septimo div -->
+  <!-- Termina sexto div -->
+
+  <!-- Inicia septimo div -->
+
+  <div class="bg-black text-gray-200 mt-1">
+
+    <div>
+      <h6 class="flex flex-wrap pt-7 mx-14">¿Preguntas? Llama al <a class="text-gray-400 font-extrabold" href="tel: 1 (408) 514-5239  (USA)">1 (408) 514-5239 (USA) </a></h6>
+    </div>
+
+    <div class="flex flex-wrap mx-14">
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://help.netflix.com/support/412" class="pb-2">Preguntas frecuentes</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://help.netflix.com/" class="pb-2">Centro de ayuda</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://www.netflix.com/youraccount" class="pb-2">Cuenta</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://media.netflix.com/" class="pb-2">Prensa</a></div>
+    </div>
+
+    <div class="flex flex-wrap mx-14">
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="http://ir.netflix.com/" class="pb-2">Relaciones con inversionistas</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://jobs.netflix.com/jobs" class="pb-2">Empleo</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://www.netflix.com/watch" class="pb-2">Formas de ver</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://help.netflix.com/legal/termsofuse" class="pb-2">Términos de uso</a></div>
+    </div>
+      
+    <div class="flex flex-wrap mx-14">
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://help.netflix.com/legal/privacy" class="pb-2">Privacidad</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://www.netflix.com/hn/#" class="pb-2">Preferencias de cookies</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://help.netflix.com/legal/corpinfo" class="pb-2">Información coorporativa</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://help.netflix.com/contactus" class="pb-2">Contáctanos</a></div>
+    </div>
+      
+    <div class="flex flex-wrap mx-14">
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://fast.com/" class="pb-2">Prueba de velocidad</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://help.netflix.com/legal/notices" class="pb-2">Avisos legales</a></div>
+      <div class="w-full sm:w-1/2 md:w-1/4"><a class="text-gray-400" href="https://www.netflix.com/hn/browse/genre/839338" class="pb-2">Sólo en Netflix</a></div>
+    </div>
+    
+    <div class="px-14">
+      <select class="mr-4 inline-block text-sm px-4 py-1 bg-black text-white border rounded hover:border-transparent hover:text-black hover:bg-white mt-4 lg:mt-0 " aria-label="Default select example">
+        <option value="1">Español</option>
+        <option value="2">English</option>
+    </select>
+    </div>
+
+    <div>
+      <h1 class="flex flex-wrap mx-14 text-gray-400">Netflix-Honduras</h1>
+    </div>
+
+    <div class="pb-7"></div>
+
+  </div>
+
+  <!-- Termina septimo div -->
+
+
+  <script src="app.js"></script>
 
 </body>
 </html>
