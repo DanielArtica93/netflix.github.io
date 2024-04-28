@@ -23,8 +23,8 @@ function setupAccordion() {
         });
     });
 }
+// Fin para controlar el acordeón
 
 // Llama a las funciones
 toggleMenu();
 setupAccordion();
-// Fin para controlar el acordeón
